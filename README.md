@@ -3,6 +3,9 @@
 
 This hotel delivery robot pathfinder application aims to find the optimal path for a hotel delivery robot to deliver items to guest rooms in a hotel, using forward search algorithm with defined actions, initial state, and goal state, with the STRIPS representation.<br>
 
+***
+# Domain Description
+
 **Objects in the domain:**<br>
 - Items: Coffee, Water<br>
 - Locations: Lobby, Elevator_F1, Elevator_F2, Kitchen, Hallway_F1, Hallway_F2, Room101, Room102, Room201, Room202<br>
@@ -18,7 +21,7 @@ The hotel environment is dynamic and complex, with multiple locations, items, an
 <br>
 
 ***
-# State description
+# STRIPS Formalization: State Description
 
 | Fluent | Description |
 |------|------------|
@@ -39,7 +42,7 @@ The hotel environment is dynamic and complex, with multiple locations, items, an
 
 
 ***
-# Action schema
+# STRIPS Formalization: Action Schema
 
 ### Action: Move(from,to)
 **Preconditions**
@@ -148,7 +151,7 @@ The hotel environment is dynamic and complex, with multiple locations, items, an
 ***
 <br>
 
-# Example problem instance:
+# Example Problem Instance:
 
 With the defined actions above, here is an example problem instance with the initial state and goal state.
 ```
