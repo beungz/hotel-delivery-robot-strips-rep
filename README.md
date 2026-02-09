@@ -80,7 +80,7 @@ The hotel environment is dynamic and complex, with multiple locations, items, an
 - InElevator
 
 **Delete Effects**
-- ElevatorAt(floor)
+- RobotAt(Elevator_F1) or RobotAt(Elevator_F2)
 - ElevatorEmpty
 ***
 
@@ -143,6 +143,7 @@ The hotel environment is dynamic and complex, with multiple locations, items, an
 
 **Add Effects**
 - Delivered(item,location)
+- ItemAt(item,location)
 - ContainerEmpty
 
 **Delete Effects**
